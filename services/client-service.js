@@ -1,7 +1,7 @@
 
 const createProduct = async (jsonProduct) => {
     try {
-        const response = await fetch(`x`, {
+        const response = await fetch(`https://github.com/braianeestrada/e-commerce/products`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -14,18 +14,18 @@ const createProduct = async (jsonProduct) => {
     }
 }
 
-const readProducts = () => fetch('x').then(response => response.json());
+const readProducts = () => fetch('https://github.com/braianeestrada/e-commerce/products').then(response => response.json());
 
-const readProduct = (id) => fetch(`x/${id}`).then(response => response.json());
+const readProduct = (id) => fetch(`https://github.com/braianeestrada/e-commerce/products/${id}`).then(response => response.json());
 
 const deleteProduct = (id) => {
-    return fetch(`x/${id}`, {
+    return fetch(`https://github.com/braianeestrada/e-commerce/products/${id}`, {
         method: 'DELETE'
     });
 };
 
 const updateProduct = (id, jsonProduct) => {
-    return fetch(`x/${id}`, {
+    return fetch(`https://github.com/braianeestrada/e-commerce/products/${id}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json'
