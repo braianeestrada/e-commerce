@@ -16,3 +16,6 @@ Es muy importante que el sitio sea adaptable para que los clientes puedan compra
 -----
 ## 👾 Link a website
 https://braianeestrada.github.io/e-commerce/index.html
+
+Cosas a tener en cuenta:
+el proyecto no esta finalizado, ya que con mis conocimientos solamente funcionan en un localhost. Para poder terminar y que funcione de la misma forma hace falta los conocimientos en servidores.
